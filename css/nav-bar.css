@@ -1,15 +1,16 @@
 .nav-bar {
-    width: auto;
-    color: black;
-    border: 1px solid rgba(0, 0, 0, 0.527);
-    /* margin: 0px 50px 0px 50px; */
-    background-color: rgb(239, 255, 220);
+  width: auto;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.527);
+  margin: 20px 0px 50px 0px;
+  /* background-color: rgb(239, 255, 220); */
 }
 
 #navbar__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style-type: none;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-items: center;
+  padding-left: 0px;
 }
