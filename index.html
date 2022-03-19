@@ -14,15 +14,13 @@
 <body>
     <div id="container">
         <header class="nav-bar">
-            <ul id="navbar__list">
-                <li><a class="" href="Main Page.html">My Blog</a></li>
-                <li><a class="" href="./static/Blog Post 1.html">post 1</a></li>
-                <li><a class="" href="#">post 2</a></li>
-                <li><a class="" href="#">post 3</a></li>
-                <li><a class="" href="#">post 4</a></li>
-                <li><a class="" href="#">post 5</a></li>
-                <li><a class="" href="#">post 6</a></li>
-            </ul>
+            <div id="navbar__list">
+                <a class="title" href="index.html">My Blog</a>
+                <form class="search-form" action="">
+                    <input id="search-input" type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
         </header>
         <section class="posts-gallery">
             <div class="card post-1">
@@ -31,7 +29,7 @@
                     <h1>Example Blog Post</h1>
                     <p class="date">Nov 12</p>
                     <p>This card represents an example blog post.</p>
-                    <button><a href="./static/Blog Post 1.html">Continue reading</a></button>
+                    <button class="card-btn"><a href="./static/Blog Post 1.html">Continue reading</a></button>
                 </div>
             </div>
             <div class="card post-2">
@@ -40,7 +38,7 @@
                     <h1>Example Blog Post</h1>
                     <p class="date">Nov 12</p>
                     <p>This card represents an example blog post.</p>
-                    <button><a href="">Continue reading</a></button>
+                    <button class="card-btn"><a href="">Continue reading</a></button>
                 </div>
             </div>
             <div class="card post-3">
@@ -49,7 +47,7 @@
                     <h1>Example Blog Post</h1>
                     <p class="date">Nov 12</p>
                     <p>This card represents an example blog post.</p>
-                    <button><a href="">Continue reading</a></button>
+                    <button class="card-btn"><a href="">Continue reading</a></button>
                 </div>
             </div>
             <div class="card post-4">
@@ -58,7 +56,7 @@
                     <h1>Example Blog Post</h1>
                     <p class="date">Nov 11</p>
                     <p>This is a wider card with supporting text below as a natural lead-in toadditional content.</p>
-                    <button><a href="">Continue reading</a></button>
+                    <button class="card-btn"><a href="">Continue reading</a></button>
                 </div>
             </div>
             <div class="card post-5">
@@ -67,7 +65,7 @@
                     <h1>Example Blog Post</h1>
                     <p class="date">Nov 11</p>
                     <p>This is a wider card with supporting text below as a natural lead-in toadditional content.</p>
-                    <button><a href="">Continue reading</a></button>
+                    <button class="card-btn"><a href="">Continue reading</a></button>
                 </div>
             </div>
             <div class="card post-6">
@@ -76,7 +74,7 @@
                     <h1>Post Title</h1>
                     <p class="date">Nov 11</p>
                     <p>This is a wider card with supporting text below as a natural lead-in toadditional content.</p>
-                    <button><a href="">Continue reading</a></button>
+                    <button class="card-btn"><a href="">Continue reading</a></button>
                 </div>
             </div>
         </section>
